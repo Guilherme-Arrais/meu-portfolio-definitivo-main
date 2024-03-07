@@ -48,14 +48,14 @@
   .imagem{
 
     top: 75px;
-    left: 120px;
+    left: 90px;
     width: 250px;
     height: 250px;
   }
   .lista{
     left: 80px;
     top: 340px;
-    font-size: 12pt;
+    font-size: 7pt;
     color: #f58f0a;
   }
 }
