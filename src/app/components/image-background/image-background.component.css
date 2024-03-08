@@ -42,12 +42,13 @@ a:hover{
   background-color: #b86d0b;
 
 }
-@media only screen and (max-width: 1000px){
+@media( max-width: 800px){
 p,.hello{
   font-size: 15pt;
 
 }
 a{
+  font-size: 20pt;
   top: 310px;
 }
 .fundo{

@@ -42,11 +42,12 @@ a{
 
 }
 
-@media only screen and (max-width: 600px) {
+@media( max-width: 800px){
 a{
-  font-size: 10pt;
+  font-size: 12pt;
 }
 p{
-font-size: 12pt;
+  left: 15px;
+font-size: 10pt;
 }
 }
