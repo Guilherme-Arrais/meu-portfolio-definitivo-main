@@ -44,12 +44,13 @@ a:hover{
 }
 @media( max-width: 800px){
 p,.hello{
-  font-size: 15pt;
+  font-size: 11pt;
 
 }
 a{
-  font-size: 20pt;
-  top: 310px;
+  font-size: 18pt;
+  top: 295px;
+  height: 130px;
 }
 .fundo{
   align-items: center;

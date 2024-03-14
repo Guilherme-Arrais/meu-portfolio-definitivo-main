@@ -27,6 +27,9 @@ p{
 }
 @media( max-width: 800px){
   .description{
-    font-size: 15pt;
+    font-size: 7pt;
+  }
+  p{
+    font-size: 7pt;
   }
 }
