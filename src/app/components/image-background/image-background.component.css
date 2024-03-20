@@ -44,12 +44,12 @@ a:hover{
 }
 @media( max-width: 800px){
 p,.hello{
-  font-size: 11pt;
+  font-size: 15pt;
 
 }
 a{
   font-size: 21pt;
-  top: 290px;
+  top: 250px;
   height: 35px;
 }
 .fundo{
@@ -58,6 +58,6 @@ a{
 
 }
 img{
-height: 320px;
+height: 300px;
 }
 }
