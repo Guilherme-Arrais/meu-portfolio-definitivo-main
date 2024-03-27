@@ -41,7 +41,7 @@
     scale: 1.1;
     transition: 0.3s;
   }
-  @media( max-width: 900px){
+  @media( max-width: 800px){
     .center__container{width: 90px;
     height: 100px; }
 

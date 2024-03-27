@@ -27,3 +27,10 @@ h1{
   color: #f58f0a;
   font-size: 35pt;
 }
+@media (max-width: 800px){
+.card-skills{top: 450px;
+}
+.title-skills{
+  top: 470px;
+}
+}

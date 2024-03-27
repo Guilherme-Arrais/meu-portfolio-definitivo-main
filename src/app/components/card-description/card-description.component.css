@@ -36,26 +36,22 @@
 }
 }
 
-@media( max-width: 800px){
-
-  .description{
+@media (max-width: 800px) {
+  .description {
     display: flex;
     flex-direction: column;
-    height: 650px;
+    height: auto; /* Adjust height automatically */
     text-align: center;
     align-items: center;
   }
 
-  .imagem{
-    left: 52px;
-    top: 75px;
+  .imagem {
+    margin: 0 auto; /* Centralizar horizontalmente */
     width: 200px;
-  height: 200px;
-
-
-
+    height: 200px;
   }
-  .lista{
+
+  .lista {
     left: 40px;
     top: 340px;
     font-size: 7pt;
