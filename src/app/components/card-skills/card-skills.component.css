@@ -1,36 +1,39 @@
-.title-skills{
+.title-skills {
   position: relative;
   width: 98vw;
-background-color: rgb(15, 15, 15);
-text-align: center;
+  background-color: rgb(15, 15, 15);
+  text-align: center;
 }
 
-.card-skills{
+.card-skills {
   position: relative;
-width: 98.7vw;
-height: auto;
-left: -1px;
-top: -3px;
-background-color: rgb(15, 15, 15);
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-flex-wrap: wrap;
-color: #f58f0a;
-border-bottom: 0.1px solid #ffb619;
-
-
+  width: 98.7vw;
+  height: auto;
+  left: -1px;
+  top: -3px;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #f58f0a;
+  border-bottom: 0.1px solid #ffb619;
+  padding-bottom: 20px; /* Adiciona espaço vazio na parte inferior */
 }
-h1{
+
+h1 {
   position: relative;
   border: 1px 1px 1px solid green;
   color: #f58f0a;
   font-size: 35pt;
 }
-@media (max-width: 800px){
-.card-skills{top: 450px;
-}
-.title-skills{
-  top: 470px;
-}
+
+@media (max-width: 800px) {
+  .card-skills {
+    top: 150px; /* Reduz o deslocamento vertical */
+   /* Aumenta o espaço vazio na parte inferior */
+  }
+  .title-skills {
+    top: 170px; /* Ajusta o deslocamento vertical do título */
+  }
 }
